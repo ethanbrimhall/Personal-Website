@@ -5,12 +5,12 @@ const express = require('express');
 var app = express();
 var server = http.createServer(app);
 
-app.set('view engine', 'ejs');
+app.use(express.static(__dirname));
 
 app.get('/', function(req, res) {
-	res.render('pages/index');
+	res.render('index.html');
 });
 
 server.listen(8080, () => {
-   console.log('Server Started on port 8080'); 
+   console.log('Server Started on port 8080');
 });
