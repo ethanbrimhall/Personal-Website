@@ -223,9 +223,6 @@ header.masthead p {
 #softwareLink{
     text-decoration: none;
 }
-#softwareLink:hover{
-    font-size: 12px;
-}
 
 .portfolio-box {
   position: relative;
@@ -288,6 +285,7 @@ header.masthead p {
   .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
     font-size: 22px;
   }
+    
 }
 
 #copyright{
