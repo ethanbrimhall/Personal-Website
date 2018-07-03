@@ -220,6 +220,13 @@ header.masthead p {
   max-width: 400px;
 }
 
+#softwareLink{
+    text-decoration: none;
+}
+#softwareLink:hover{
+    font-size: 12px;
+}
+
 .portfolio-box {
   position: relative;
   display: block;
@@ -281,6 +288,12 @@ header.masthead p {
   .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
     font-size: 22px;
   }
+}
+
+#copyright{
+    font-size: 10px;
+    color: gray;
+    text-align: center;
 }
 
 .text-primary {
