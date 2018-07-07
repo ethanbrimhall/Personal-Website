@@ -171,14 +171,30 @@ img::-moz-selection {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  background-image: url("../img/header.jpg");
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
+#image{
+    max-width: 70%;
+}
 
+#kahootBG{
+    background-repeat: no-repeat;
+    height: 80%;
+}
+#kahootLink{
+    color: white;
+    text-decoration: underline;
+}
+#kahootTitle{
+    color: black;
+}
+#colorBlack{
+    color: black;
+}
 
 header.masthead hr {
   margin-top: 30px;
@@ -327,3 +343,5 @@ header.masthead p {
 .btn-primary:active, .btn-primary:focus {
   box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
 }
+
+
