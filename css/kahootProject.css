@@ -186,9 +186,13 @@ header.masthead {
     color: #F05F40;
 }
 
+#viewCodeBtn{
+    background-color: #ee4b28;
+}
+
 #kahootBG{
     background-repeat: no-repeat;
-    height: 80%;
+    height: 90%;
 }
 #kahootLink{
     color: gray;
