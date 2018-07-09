@@ -168,6 +168,10 @@ img::-moz-selection {
   }
 }
 
+.imgBorder{
+    border: 3px solid black;
+}
+
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
@@ -177,8 +181,9 @@ header.masthead {
   -o-background-size: cover;
   background-size: cover;
 }
-#image{
-    max-width: 70%;
+
+#summary{
+    color: #F05F40;
 }
 
 #kahootBG{
@@ -186,7 +191,7 @@ header.masthead {
     height: 80%;
 }
 #kahootLink{
-    color: white;
+    color: gray;
     text-decoration: underline;
 }
 #kahootTitle{
