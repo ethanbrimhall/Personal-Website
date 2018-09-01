@@ -190,6 +190,11 @@ header.masthead {
     background-color: #ee4b28;
 }
 
+#installTitle{
+    color: grey;
+    font-size: 35px;
+}
+
 #kahootBG{
     background-repeat: no-repeat;
     height: 90%;
